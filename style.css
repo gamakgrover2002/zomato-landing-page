@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-body {
+body{
     margin: 0;
-  padding: 0;
+    padding: 0;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
-header{
+
+header {
     width: 100%;
     height: 70vh;
     overflow: hidden;
@@ -14,16 +15,17 @@ header{
     object-fit: cover;
     margin-bottom: 2rem;
 }
-.header-image{
+.header-image {
     width: 100%;
     position: absolute;
     top: -20vh;
     z-index: -1;
 }
-.header-image img{
+.header-image img {
     width: 100%;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +33,7 @@ header{
     font-size: 1rem;
     margin: 0 40px;
 }
-.nav-bar{
+.nav-bar {
     list-style: none;
     font-weight: lighter;
     display: flex;
@@ -44,53 +46,16 @@ header{
     margin-top: 7vh;
     align-items: center;
 }
-.logo{
-    width: 25vw;
+.logo {
+    width: 20vw;
 }
-.search{
-    display: flex;
-    width: 55vw;
-    align-items: center;
-    border-radius: 10px;
-    background: white;
-    padding: 5px 4px;
-}
-
-.search .search-item{
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-}
-.search .search-item p{
-    color: grey;
-    border-right: 2px solid grey;
-    font-size: 15px;
-    margin-right: 10px;
-    padding-left: 10px;
-}
-.search .search-item input{
-    outline: none;
-    border: none;
-    width: 200px;
-    padding-left: 10px;
-    font-size: 15px;
-}
-.search .search-item:first-child{
-    width: 30%;
-    color: rgb(255, 126, 139);
-}
-.search .search-item:last-child{
-    width: 70%;
-    color: gray;
-}
-.head h3{
+.head h3 {
     font-size: 2.1rem;
     color: whitesmoke;
     font-weight: 400;
-
 }
 .search {
-   display: flex;
+    display: flex;
     width: 55vw;
     /* justify-content: center; */
     align-items: center;
